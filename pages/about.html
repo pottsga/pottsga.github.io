@@ -1,0 +1,67 @@
+---
+title: About
+layout: layout.html
+active: about
+---
+
+<link rel="stylesheet" href="/static/css/about.css">
+
+<div class="container my-5">
+  <h1>Credentials</h1>
+
+  {% for credential in credentials %}
+
+    <section class="ml-md-3 row bg-light" style="padding: 8px 16px; margin-bottom: 8px; border-radius: 8px;">
+        <div class="col-12 col-md-9">
+          <h2>{{credential.institution|title}}</h2>
+          <h5><strong>{{credential.degree}}</strong></h5>
+          <h5><em>{{credential.honors}}</em></h5>
+          <p>({{credential.from}} - {{credential.to}})</p>
+        </div>
+        <div class="d-none d-md-block col-md-3">
+          <img class="image" src="{{credential.image}}" alt="{{credential.institution|title}}">
+        </div>
+    </section>
+
+  {% endfor %}
+
+  <h1>Experience</h1>
+
+  {% for experience in experiences %}
+
+    <section class="ml-md-3 row bg-light" style="padding: 8px 16px; margin-bottom: 8px; border-radius: 8px;">
+      <div class="col-12 col-md-9">
+        <h2>{{experience.institution|title}}</h2>
+        <h5><strong>{{experience.title}}</strong></h5>
+        <p>({{experience.from}} - {{experience.to}})</p>
+      </div>
+      <div class="d-none d-md-block col-md-3">
+        <img class="image" src="{{experience.image}}" alt="{{experience.institution|title}}">
+      </div>
+    </section>
+
+  {% endfor %}
+
+  <h1>Technology</h1>
+
+  <ul>
+    {% for technology in technologies %}
+    <li><em>{{technology}}</em></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Contact</h1>
+
+  <ul>
+    {% for contact in contacts %}
+      <li>
+        <img src="{{contact.img}}" alt="{{contact.key}}">
+        <a href="{% if contact.key == 'gmail' %}mailto:{% endif %}{{contact.value}}">{{contact.value}}</a>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+
+</div>
+

@@ -1,0 +1,76 @@
+{
+  "credentials": [
+    {
+      "institution": "Liberty University",
+      "image": "/static/img/liberty_logo.svg",
+      "degree": "MBA",
+      "honors": "with distinction",
+      "from": 2019,
+      "to": 2021
+    },
+    {
+      "institution": "Hiram College",
+      "image": "/static/img/hiram_logo.svg",
+      "degree": "B.A. in Computer Science",
+      "honors": "cum laude",
+      "from": 2014,
+      "to": 2017
+    }
+  ],
+  "experiences": [
+    {
+      "institution": "Piedmont Technical College",
+      "image": "/static/img/ptc_logo.svg",
+      "title": "Systems Programmer / Developer II",
+      "from": "February 2019",
+      "to": "Present"
+    },
+    {
+      "institution": "Piedmont Technical College",
+      "image": "/static/img/ptc_logo.svg",
+      "title": "Systems Programmer / Developer I",
+      "from": "April 2017",
+      "to": "February 2019"
+    },
+    {
+      "institution": "Hiram College",
+      "image": "/static/img/hiram_logo.svg",
+      "title": "Helpdesk Manager",
+      "from": "September 2014",
+      "to": "April 2017"
+    }
+  ],
+  "technologies": [
+    "bash/zsh",
+    "CSS",
+    "git",
+    "GNU/Linux",
+    "HTML", 
+    "Java", 
+    "JavaScript", 
+    "MySQL", 
+    "PHP", 
+    "PL/SQL", 
+    "Python3", 
+    "Responsive Design", 
+    ".NET Core", 
+    "Unix"
+  ],
+  "contacts": [
+    {
+      "key": "github",
+      "value": "https://github.com/pottsga",
+      "img": "/static/img/github.png"
+    },
+    {
+      "key": "linkedin",
+      "value": "https://linkedin.com/in/pottsga",
+      "img": "/static/img/linkedin.png"
+    },
+    {
+      "key": "gmail",
+      "value": "pottsga@gmail.com",
+      "img": "/static/img/gmail.png"
+    }
+  ]
+}
