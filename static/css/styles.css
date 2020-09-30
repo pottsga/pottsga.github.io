@@ -1,0 +1,28 @@
+:root {
+  --navbar-height: 56px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Baskerville", serif;
+}
+
+em, strong {
+  font-family: "Libre Baskerville", serif;
+}
+
+strong {
+  font-weight: 700; 
+}
+
+main#content {
+  min-height: calc(100vh - var(--navbar-height));
+}
+
+.navigation {
+  height: var(--navbar-height);
+}
