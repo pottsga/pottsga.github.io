@@ -22,6 +22,10 @@ strong {
 main#content {
   min-height: calc(100vh - var(--navbar-height));
 }
+ 
+code * {
+  font-family: 'Ubuntu Mono', Courier, monospace !important;
+}
 
 code {
   border: 1px solid #ccc;
@@ -30,6 +34,7 @@ code {
   padding: 14px;
 }
 
-.navigation {
-  height: var(--navbar-height);
+#navigation {
+  min-height: var(--navbar-height);
+  background: white;
 }
