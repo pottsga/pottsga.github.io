@@ -2,7 +2,7 @@ deploy:
 	gh-pages -d _site
 
 build:
-	eleventy --formats=html,css,js,svg,jpg,png
+	eleventy
 
 dev:
-	eleventy --serve --formats=html,css,js,svg,jpg,png
+	eleventy --serve

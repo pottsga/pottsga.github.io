@@ -1,0 +1,12 @@
+---
+layout: layout.html
+active: posts
+---
+
+<h1>Posts</h1>
+
+<ul>
+  {% for post in collections.posts %}
+    <li><a href="{{post.url | url}}">{{post.data.title}}</a> written on {{post.date|date: "%m/%d/%Y %I:%M:%S %p"}}</li>
+  {% endfor %}
+</ul>

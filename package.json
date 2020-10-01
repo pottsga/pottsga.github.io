@@ -4,8 +4,9 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d _site"
+    "deploy": "gh-pages -d _site",
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,7 @@
   "bugs": {
     "url": "https://github.com/pottsga/pottsga.github.io/issues"
   },
-  "homepage": "https://github.com/pottsga/pottsga.github.io#readme"
+  "homepage": "https://github.com/pottsga/pottsga.github.io#readme",
+  "dependencies": {
+  }
 }
