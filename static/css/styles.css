@@ -23,6 +23,13 @@ main#content {
   min-height: calc(100vh - var(--navbar-height));
 }
 
+code {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px #ccc;
+  padding: 14px;
+}
+
 .navigation {
   height: var(--navbar-height);
 }
