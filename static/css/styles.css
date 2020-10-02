@@ -9,6 +9,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Libre Baskerville", serif;
+  margin-bottom: 2rem;
 }
 
 em, strong {
@@ -34,7 +35,21 @@ code {
   padding: 14px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 #navigation {
   min-height: var(--navbar-height);
   background: white;
 }
+
+#navigation a,
+a.btn {
+  text-decoration: none;
+}
+
+.hljs * {
+  font-size: 1rem;
+}
+

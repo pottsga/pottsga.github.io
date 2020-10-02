@@ -19,6 +19,14 @@ active: home
 <h1>Most Recent Posts</h1>
 <ul>
   {% for post in collections.posts limit:5 %}
-  <li><a href="{{post.url}}">{{post.data.title}}</a> written on {{post.date|date: "%m/%d/%Y %I:%M %p"}}</li>
+    <li>
+      <p>
+        <a href="{{post.url}}">{{post.data.title}}</a> written on {{post.date|date: "%m/%d/%Y %I:%M %p"}}
+
+        {% if post.data.tags %}
+        <em>#{{ post.data.tags | sort | join: ', #' }}</em>
+        {% endif %}
+      </p>
+    </li>
   {% endfor %}
 </ul>
