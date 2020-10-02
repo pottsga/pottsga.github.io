@@ -1,0 +1,35 @@
+---
+permalink: rss.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }}</title>
+    <atom:link href="https://{{site.domain}}/rss.xml" rel="self" type="application/rss+xml"/>
+    <link>https://{{ site.domain }}</link>
+    <pubDate>{{ collections.posts | rssPubDate }}</pubDate>
+    <description>RSS Feed for {{site.author}}</description>
+    {%- for post in collections.posts | reverse %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(site.url) }}{% endset %}
+    <item>
+        <title><![CDATA[{{ post.data.title | rssItemTitle | safe }}]]></title>
+        <link>{{ absolutePostUrl }}</link>
+        <pubDate>{{ post.date.toUTCString() }}</pubDate>
+        <dc:creator><![CDATA[{{ post.data.author | safe }}]]></dc:creator>
+        {% for tag in post.data.tags %}
+        <category><![CDATA[{{ tag | safe }}]]></category>
+        {% endfor %}
+        {% if post.data.guid %}
+        <guid isPermaLink="false">{{ post.data.guid }}</guid>
+        {% else %}
+        <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
+        {% endif %}
+        <description><![CDATA[{{ post.templateContent | rssItemDescription | safe }}]]></description>
+    </item>
+    {%- endfor %}
+
+  </channel>
+</rss>
