@@ -15,6 +15,8 @@ _Written by_ [Greg Potts](mailto:pottsga@gmail.com)
 Tags: _#{{ tags | sort | join: ', #' }}_
 {% endif %}
 
+<p><a href="/rss.xml">RSS Feed</a></p>
+
 <article class="mt-5">
   {{content | safe}}
 </article>
