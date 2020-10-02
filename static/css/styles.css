@@ -34,7 +34,21 @@ code {
   padding: 14px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 #navigation {
   min-height: var(--navbar-height);
   background: white;
 }
+
+#navigation a,
+a.btn {
+  text-decoration: none;
+}
+
+.hljs * {
+  font-size: 1rem;
+}
+
