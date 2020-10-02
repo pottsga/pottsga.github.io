@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pottsga</title>
+    <atom:link href="https://pottsga.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <link>https://pottsga.com</link>
+    <pubDate>Fri, 02 Oct 2020 15:06:01 GMT</pubDate>
+    <description>RSS Feed for Greg Potts</description>
+    
+    <item>
+        <title><![CDATA[My First Post]]></title>
+        <link>/posts/10-02-2020/my-first-post.html</link>
+        <pubDate>Fri, 02 Oct 2020 15:06:01 GMT</pubDate>
+        <dc:creator><![CDATA[]]></dc:creator>
+        
+        <category><![CDATA[fifth]]></category>
+        
+        <category><![CDATA[first]]></category>
+        
+        <category><![CDATA[fourth]]></category>
+        
+        <category><![CDATA[python]]></category>
+        
+        <category><![CDATA[second]]></category>
+        
+        <category><![CDATA[third]]></category>
+        
+        
+        <guid isPermaLink="true">/posts/10-02-2020/my-first-post.html</guid>
+        
+        <description><![CDATA[]]></description>
+    </item>
+
+  </channel>
+</rss>
