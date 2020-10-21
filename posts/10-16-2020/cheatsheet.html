@@ -6,9 +6,9 @@
 
   <meta name="author" content="Greg Potts">
 
-  <meta name="description" content="Greg Potts personal website and blog">
+  <meta name="description" content="Cheatsheet">
 
-  <meta name="keywords" content="technology,blog,pottsga,html,css,javascript,python,jinja">
+  <meta name="keywords" content="technology,blog,pottsga,html,css,javascript,python,jinja,cheatsheet">
 
   <link rel="shortcut icon" href="/static/img/favicon.png">
 
@@ -61,34 +61,23 @@
 
 
   <main class="container my-5">
-    
-<h1>Posts</h1>
-
-<ul>
-  
-    <li>
-      <p>
-        <a href="/posts/10-16-2020/cheatsheet.html">Cheatsheet</a> written on 10/16/2020 08:28 AM
-
-        
-        <em>#cheatsheet</em>
-        
-      </p>
-    </li>
-  
-    <li>
-      <p>
-        <a href="/posts/10-02-2020/my-first-post.html">My First Post</a> written on 10/02/2020 11:06 AM
-
-        
-        <em>#fifth, #first, #fourth, #python, #second, #third</em>
-        
-      </p>
-    </li>
-  
-</ul>
-
-<p class="mt-5"><a href="/rss.xml">RSS Feed</a></p>
+    <h1>Cheatsheet</h1>
+<p><em>Written on</em> 10/16/2020 08:28 AM</p>
+<p><em>Written by</em> <a href="mailto:pottsga@gmail.com">Greg Potts</a></p>
+<p>Tags: <em>#cheatsheet</em></p>
+<p><a href="/rss.xml">RSS Feed</a></p>
+<article class="mt-5">
+  <h1>bash</h1>
+<h2>find</h2>
+<pre><code class="language-bash">find [filepath] -name [search_criteria]
+find [filepath] -name [search_criteria] -type [f or d]
+find [filepath] -name [search_criteria] -type [f or d] -exec echo {} \; # execute a command on finding a file
+</code></pre>
+<h2>locate</h2>
+<pre><code class="language-bash">locate [search_criteria]
+updatedb # updates search db for locate to work
+</code></pre>
+</article>
 
   </main>
 
