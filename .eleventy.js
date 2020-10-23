@@ -12,7 +12,6 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("posts/**/*.*").reverse();
   });
 
-
   // RSS/XML Configuration
   eleventyConfig.addPlugin(eleventyXMLPlugin);
 
@@ -27,8 +26,9 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addNunjucksFilter("rssPubDate", collection => {
-    if (!collection || !collection.length) {
-      throw new Error("Collection is empty in rssPubDate filter.");
+    if (!collection || !collection.length || collection.length == 0) {
+      // throw new Error("Collection is empty in rssPubDate filter.");
+      return false;
     }
 
     // Newest date in the collection

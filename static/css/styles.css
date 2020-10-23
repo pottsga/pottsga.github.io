@@ -9,7 +9,8 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Libre Baskerville", serif;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 em, strong {
@@ -29,10 +30,12 @@ code * {
 }
 
 code {
+  padding: .2em;
+}
+
+code.hljs {
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-shadow: 4px 4px 2px #ccc;
-  padding: 14px;
 }
 
 a {
