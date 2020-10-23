@@ -2,18 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/posts/10-16-2020/cheatsheet.html</loc>
-            <lastmod>2020-10-16T08:28:35-04:00</lastmod>
+            <loc>/posts/10-23-2020/dotfiles-management.html</loc>
+            <lastmod>2020-10-23T13:22:10-04:00</lastmod>
         </url>
     
         <url>
             <loc>/404.html</loc>
             <lastmod>2020-10-02T11:50:24-04:00</lastmod>
-        </url>
-    
-        <url>
-            <loc>/posts/10-02-2020/my-first-post.html</loc>
-            <lastmod>2020-10-02T11:06:01-04:00</lastmod>
         </url>
     
         <url>

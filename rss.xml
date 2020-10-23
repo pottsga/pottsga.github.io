@@ -6,43 +6,21 @@
     <title>pottsga</title>
     <atom:link href="https://pottsga.com/rss.xml" rel="self" type="application/rss+xml"/>
     <link>https://pottsga.com</link>
-    <pubDate>Fri, 02 Oct 2020 15:06:01 GMT</pubDate>
+    <pubDate>Fri, 23 Oct 2020 17:22:10 GMT</pubDate>
     <description>RSS Feed for Greg Potts</description>
     
     <item>
-        <title><![CDATA[My First Post]]></title>
-        <link>/posts/10-02-2020/my-first-post.html</link>
-        <pubDate>Fri, 02 Oct 2020 15:06:01 GMT</pubDate>
+        <title><![CDATA[Dotfiles Management]]></title>
+        <link>/posts/10-23-2020/dotfiles-management.html</link>
+        <pubDate>Fri, 23 Oct 2020 17:22:10 GMT</pubDate>
         <dc:creator><![CDATA[]]></dc:creator>
         
-        <category><![CDATA[fifth]]></category>
+        <category><![CDATA[dotfiles]]></category>
         
-        <category><![CDATA[first]]></category>
-        
-        <category><![CDATA[fourth]]></category>
-        
-        <category><![CDATA[python]]></category>
-        
-        <category><![CDATA[second]]></category>
-        
-        <category><![CDATA[third]]></category>
+        <category><![CDATA[gnu stow]]></category>
         
         
-        <guid isPermaLink="true">/posts/10-02-2020/my-first-post.html</guid>
-        
-        <description><![CDATA[]]></description>
-    </item>
-    
-    <item>
-        <title><![CDATA[Cheatsheet]]></title>
-        <link>/posts/10-16-2020/cheatsheet.html</link>
-        <pubDate>Fri, 16 Oct 2020 12:28:35 GMT</pubDate>
-        <dc:creator><![CDATA[]]></dc:creator>
-        
-        <category><![CDATA[cheatsheet]]></category>
-        
-        
-        <guid isPermaLink="true">/posts/10-16-2020/cheatsheet.html</guid>
+        <guid isPermaLink="true">/posts/10-23-2020/dotfiles-management.html</guid>
         
         <description><![CDATA[]]></description>
     </item>
