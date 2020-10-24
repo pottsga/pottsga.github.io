@@ -15,9 +15,12 @@ _Written by_ [Greg Potts](mailto:pottsga@gmail.com)
 Tags: _#{{ tags | sort | join: ', #' }}_
 {% endif %}
 
+<p id="timeToRead"><em>Estimated time to read:</em> </p>
+
 <p><a href="/rss.xml">RSS Feed</a></p>
 
-<article class="mt-5">
+<article id="content" class="mt-5">
   {{content | safe}}
 </article>
 
+<script src="/static/js/includes/post.js"></script>
