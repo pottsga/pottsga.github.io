@@ -6,13 +6,13 @@
     <title>pottsga</title>
     <atom:link href="https://pottsga.com/rss.xml" rel="self" type="application/rss+xml"/>
     <link>https://pottsga.com</link>
-    <pubDate>Fri, 23 Oct 2020 18:41:44 GMT</pubDate>
+    <pubDate>Tue, 12 Jan 2021 01:06:02 GMT</pubDate>
     <description>RSS Feed for Greg Potts</description>
     
     <item>
         <title><![CDATA[Dotfiles Management]]></title>
-        <link>/posts/10-23-2020/dotfiles-management.html</link>
-        <pubDate>Fri, 23 Oct 2020 18:41:44 GMT</pubDate>
+        <link>/posts/01-11-2021/dotfiles-management.html</link>
+        <pubDate>Tue, 12 Jan 2021 01:06:02 GMT</pubDate>
         <dc:creator><![CDATA[]]></dc:creator>
         
         <category><![CDATA[dotfiles]]></category>
@@ -20,7 +20,33 @@
         <category><![CDATA[gnu stow]]></category>
         
         
-        <guid isPermaLink="true">/posts/10-23-2020/dotfiles-management.html</guid>
+        <guid isPermaLink="true">/posts/01-11-2021/dotfiles-management.html</guid>
+        
+        <description><![CDATA[]]></description>
+    </item>
+    
+    <item>
+        <title><![CDATA[Automatically Add Asterisk to Required Fields]]></title>
+        <link>/posts/01-11-2021/automatically-add-asterisk-to-required-fields.html</link>
+        <pubDate>Tue, 12 Jan 2021 02:13:26 GMT</pubDate>
+        <dc:creator><![CDATA[]]></dc:creator>
+        
+        <category><![CDATA[Automation]]></category>
+        
+        <category><![CDATA[CSS]]></category>
+        
+        <category><![CDATA[Input]]></category>
+        
+        <category><![CDATA[JS]]></category>
+        
+        <category><![CDATA[Required]]></category>
+        
+        <category><![CDATA[Select]]></category>
+        
+        <category><![CDATA[Textarea]]></category>
+        
+        
+        <guid isPermaLink="true">/posts/01-11-2021/automatically-add-asterisk-to-required-fields.html</guid>
         
         <description><![CDATA[]]></description>
     </item>
