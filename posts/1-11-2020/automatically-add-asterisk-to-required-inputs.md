@@ -3,6 +3,7 @@ layout: post.md
 title: "Automatically Add Asterisk to Required Fields"
 active: posts
 
+date: 2021-01-12T19:55:00Z
 description: How to automatically add an asterisk to a required input, textarea, or select element. 
 tags: [ JS, CSS, Required, Input, Select, Textarea, Automation ]
 ---

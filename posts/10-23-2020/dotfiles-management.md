@@ -3,6 +3,7 @@ layout: post.md
 title: "Dotfiles Management"
 active: posts
 
+date: 2020-10-23T19:37:00Z
 description: How to manage your dotfiles with GNU stow 
 tags: [ dotfiles, gnu stow ]
 ---
