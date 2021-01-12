@@ -6,9 +6,6 @@ const stripHtml = require("string-strip-html");
 const HtmlEntities = require('html-entities');
 const htmlEncoder = new HtmlEntities.AllHtmlEntities();
 
-
-console.log('blah');
-
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("posts", function(collection) {

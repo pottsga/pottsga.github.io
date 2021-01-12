@@ -7,8 +7,6 @@ description: How to manage your dotfiles with GNU stow
 tags: [ dotfiles, gnu stow ]
 ---
 
-
-
 ## Summary
 
 Managing your dotfiles on multiple machines has never been easier with the utilization of [`GNU stow`](https://www.gnu.org/software/stow/). 
