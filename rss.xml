@@ -50,6 +50,28 @@
         
         <description><![CDATA[]]></description>
     </item>
+    
+    <item>
+        <title><![CDATA[Cheatsheet]]></title>
+        <link>/posts/02-03-2021/cheatsheet.html</link>
+        <pubDate>Wed, 03 Feb 2021 23:55:00 GMT</pubDate>
+        <dc:creator><![CDATA[]]></dc:creator>
+        
+        <category><![CDATA[Linux]]></category>
+        
+        <category><![CDATA[VIM]]></category>
+        
+        <category><![CDATA[bash]]></category>
+        
+        <category><![CDATA[macOS]]></category>
+        
+        <category><![CDATA[zsh]]></category>
+        
+        
+        <guid isPermaLink="true">/posts/02-03-2021/cheatsheet.html</guid>
+        
+        <description><![CDATA[]]></description>
+    </item>
 
   </channel>
 </rss>
