@@ -112,21 +112,54 @@ addRequiredClassToLabels(); // call it
 <p>This simple code allows any <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;&lt;/textarea&gt;</code>, and <code>&lt;select&gt;&lt;/select&gt;</code> with a sibling <code>&lt;label&gt;</code> element within a parent container to have a red asterisk added to it.</p>
 <h3>Result</h3>
 <p>The following are the results of applying the CSS and JS above.</p>
-<div class="form-group my-2">
-  <label for="required_field1">Required Input</label>
-  <input type="text" class="form-control" name="required_field1" id="required_field1" required>
+<div class="container">
+<div class="row gx-2">
+  <div class="col-lg-6">
+    <div class="border p-2">
+    <code>Output</code>
+    <div class="form-group my-2">
+      <label for="required_field1">Required Input</label>
+      <input type="text" class="form-control" name="required_field1" id="required_field1" required>
+    </div>
+    <div class="form-group my-2">
+    <label for="required_field2">Required Select</label>
+    <select id="required_field2" name="required_field2" class="form-control" required>
+      <option value=""></option>
+      <option value="lorem">Lorem</option>
+      <option value="ipsum">Ipsum</option>
+    </select>
+    </div>
+    <div class="form-group my-2">
+    <label for="required_field3">Required Textarea</label>
+    <textarea id="required_field3" name="required_field3" rows="4" required class="form-control"></textarea>
+    </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="border p-2">
+    <code>Input</code>
+<pre><code>  &lt;code class=&quot;language-html hljs html&quot;&gt;
+  &lt;div class=&quot;form-group my-2&quot;&gt;
+    &lt;label for=&quot;required_field1&quot;&gt;Required Input&lt;/label&gt;
+    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;required_field1&quot; id=&quot;required_field1&quot; required&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-group my-2&quot;&gt;
+    &lt;label for=&quot;required_field2&quot;&gt;Required Select&lt;/label&gt;
+    &lt;select id=&quot;required_field2&quot; name=&quot;required_field2&quot; class=&quot;form-control&quot; required&gt;
+      &lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+      &lt;option value=&quot;lorem&quot;&gt;Lorem&lt;/option&gt;
+      &lt;option value=&quot;ipsum&quot;&gt;Ipsum&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-group my-2&quot;&gt;
+    &lt;label for=&quot;required_field3&quot;&gt;Required Textarea&lt;/label&gt;
+    &lt;textarea id=&quot;required_field3&quot; name=&quot;required_field3&quot; rows=&quot;4&quot; required class=&quot;form-control&quot;&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+  &lt;/code&gt;
+&lt;/div&gt;
+</code></pre>
+  </div>
 </div>
-<div class="form-group my-2">
-<label for="required_field2">Required Select</label>
-<select id="required_field2" name="required_field2" class="form-control" required>
-  <option value=""></option>
-  <option value="lorem">Lorem</option>
-  <option value="ipsum">Ipsum</option>
-</select>
-</div>
-<div class="form-group my-2">
-<label for="required_field3">Required Textarea</label>
-<textarea id="required_field3" name="required_field3" rows="4" required class="form-control"></textarea>
 </div>
 </article>
 <script src="/static/js/includes/post.js"></script>
