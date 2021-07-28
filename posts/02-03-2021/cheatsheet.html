@@ -93,6 +93,13 @@
 </ul>
 </li>
 </ul>
+<h2>Invalid MIT-MAGIC-COOKIE-1</h2>
+<p>If you are receiving the following error: <code>Invalid MIT-MAGIC-COOKIE-1 keyxterm Xt error: Can't open display: localhost:11.0</code>, follow the following diagnostic steps:</p>
+<ol>
+<li>Is your X11 Windows server running? (xQuarts)? If not, start it.
+- You can tell something is wrong if you issue an <code>xauth list</code> on your local machine and nothing works.</li>
+<li>Issue the following command: <code>xhost +local:</code> before <code>ssh</code>-ing to the server.</li>
+</ol>
 </article>
 <script src="/static/js/includes/post.js"></script>
 
