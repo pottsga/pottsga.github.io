@@ -26,19 +26,3 @@
   width: 100%;
   object-fit: scale-down;
 }
-
-#pane {
-  animation: 
-    hovering 3s infinite alternate ease-in-out;
-
-}
-
-@keyframes hovering {
-  0% {
-    transform: translateY(-var(--hovering-span));
-  }
-
-  100% {
-    transform: translateY(var(--hovering-span));
-  }
-}
