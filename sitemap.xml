@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
+            <loc>/pages/projects/</loc>
+            <lastmod>2021-09-29T19:55:36Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/</loc>
+            <lastmod>2021-09-29T19:54:46Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/pages/projects/mainstreetumcabbeville/</loc>
+            <lastmod>2021-09-29T19:52:51Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/pages/projects/phelpswaterfowl/</loc>
+            <lastmod>2021-09-29T19:45:17Z</lastmod>
+        </url>
+    
+        <url>
             <loc>/404.html</loc>
             <lastmod>2021-09-12T19:36:48Z</lastmod>
         </url>
     
         <url>
             <loc>/pages/about/</loc>
-            <lastmod>2021-09-12T19:28:53Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/</loc>
             <lastmod>2021-09-12T19:28:53Z</lastmod>
         </url>
     
