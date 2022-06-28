@@ -6,72 +6,8 @@
     <title>pottsga</title>
     <atom:link href="https://pottsga.com/rss.xml" rel="self" type="application/rss+xml"/>
     <link>https://pottsga.com</link>
-    <pubDate>Fri, 23 Oct 2020 19:37:00 GMT</pubDate>
+    <pubDate>false</pubDate>
     <description>RSS Feed for Greg Potts</description>
-    
-    <item>
-        <title><![CDATA[Dotfiles Management]]></title>
-        <link>/posts/10-23-2020/dotfiles-management.html</link>
-        <pubDate>Fri, 23 Oct 2020 19:37:00 GMT</pubDate>
-        <dc:creator><![CDATA[]]></dc:creator>
-        
-        <category><![CDATA[dotfiles]]></category>
-        
-        <category><![CDATA[gnu stow]]></category>
-        
-        
-        <guid isPermaLink="true">/posts/10-23-2020/dotfiles-management.html</guid>
-        
-        <description><![CDATA[]]></description>
-    </item>
-    
-    <item>
-        <title><![CDATA[Automatically Add Asterisk to Required Fields]]></title>
-        <link>/posts/01-12-2021/automatically-add-asterisk-to-required-fields.html</link>
-        <pubDate>Tue, 12 Jan 2021 19:55:00 GMT</pubDate>
-        <dc:creator><![CDATA[]]></dc:creator>
-        
-        <category><![CDATA[Automation]]></category>
-        
-        <category><![CDATA[CSS]]></category>
-        
-        <category><![CDATA[Input]]></category>
-        
-        <category><![CDATA[JS]]></category>
-        
-        <category><![CDATA[Required]]></category>
-        
-        <category><![CDATA[Select]]></category>
-        
-        <category><![CDATA[Textarea]]></category>
-        
-        
-        <guid isPermaLink="true">/posts/01-12-2021/automatically-add-asterisk-to-required-fields.html</guid>
-        
-        <description><![CDATA[]]></description>
-    </item>
-    
-    <item>
-        <title><![CDATA[Cheatsheet]]></title>
-        <link>/posts/10-19-2021/cheatsheet.html</link>
-        <pubDate>Tue, 19 Oct 2021 19:37:00 GMT</pubDate>
-        <dc:creator><![CDATA[]]></dc:creator>
-        
-        <category><![CDATA[Linux]]></category>
-        
-        <category><![CDATA[VIM]]></category>
-        
-        <category><![CDATA[bash]]></category>
-        
-        <category><![CDATA[macOS]]></category>
-        
-        <category><![CDATA[zsh]]></category>
-        
-        
-        <guid isPermaLink="true">/posts/10-19-2021/cheatsheet.html</guid>
-        
-        <description><![CDATA[]]></description>
-    </item>
 
   </channel>
 </rss>
