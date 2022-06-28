@@ -18,7 +18,7 @@ active: about
 
 <ul>
   {% for experience in experiences %}
-    <li><strong>{{experience.title|title}}</strong> &mdash; {{experience.institution|title}}; ({{experience.from}} - {{experience.to}})</li>
+    <li><strong>{{experience.title|title}}</strong> &mdash; {{experience.institution|title}}; ({{experience.from}}{% if experience.to != '' %}-{% endif %}{{experience.to}})</li>
   {% endfor %}
 </ul>
 
